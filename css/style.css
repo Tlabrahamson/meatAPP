@@ -1,0 +1,42 @@
+#container{
+    /* margin-left: 40%; */
+    text-align: center;
+}
+
+fieldset{
+    border: none;
+}
+
+#submitButton{
+    background: #c0ff33;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    border: none;
+    box-shadow: 1px 1px 1px #000;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+#meatButton{
+    background: #ccc;
+    color: #fff;
+    text-shadow: 2px 2px 2px #000;
+    border: none;
+    box-shadow: 1px 1px 1px #000;
+    width: 100px;
+    height: 30px;
+}
+
+#output{
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#cards{
+    border: solid 1px #000;
+    border-radius: 10px 10px 10px 10px;
+    padding: 5px;
+    margin: 5px;
+}
