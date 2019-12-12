@@ -61,8 +61,8 @@
 <?php
     /* Connect to a MySQL database using driver invocation */
     $dsn = 'mysql:dbname=foodDb;host=localhost';
-    $user = 'arbys';
-    $password = 'meaties';
+    $user = '****';
+    $password = '****';
 
     try {
         $dbh = new PDO($dsn, $user, $password);
