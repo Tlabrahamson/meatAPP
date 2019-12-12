@@ -1,8 +1,8 @@
 <?php
     try {
         $dsn = 'mysql:dbname=foodDb;host=localhost';
-        $user = 'arbys';
-        $password = 'meaties';
+        $user = '****';
+        $password = '****';
 
         $dbh = new PDO($dsn, $user, $password);
         $sql = "SELECT * FROM MEAT";
