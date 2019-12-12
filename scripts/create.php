@@ -1,7 +1,7 @@
 <?php
     $dsn = 'mysql:dbname=foodDb;host=localhost';
-    $user = 'arbys';
-    $password = 'meaties';
+    $user = '****';
+    $password = '****';
 
     echo json_encode($_POST);
     
